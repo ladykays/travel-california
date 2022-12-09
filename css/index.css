@@ -142,3 +142,31 @@ section h2 {
   padding-top: 10px;
 }
 
+/* CTA Section*/
+.signup-section {
+  background: url(../images/SF.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#whiteHeading {
+  color: #fff;
+}
+.form-inline{
+  width: 100%;
+  justify-content: center;
+}
+#exampleInputEmail1 {
+  width: 100%;
+}
+.form-group {
+  width: 80%;
+}
+.subscribe-btn {
+  margin-left: 10px;
+  background-color: #fdcc52;
+  border-radius: 15px;
+  padding: 10px;
+  color: #313131;
+  border: none;
+  font-size: 0.8rem;
+}

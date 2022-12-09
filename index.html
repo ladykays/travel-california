@@ -140,17 +140,18 @@
   <!-- Call to Action -->
   <section class="signup-section" id="signup">
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-center">
         <div class="col-lg-8">
           <i></i> <!-- add icon from font-awesome library-->
-          <h2>Subscribe to receive updates!</h2>
+          <h2 class="text-align-center" id="whiteHeading">Subscribe to receive updates!</h2>
           <form>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-            </div>
-            <button type="submit" class="btn btn-primary">Subscribe</button>
+            <div class="form-inline">
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
+                <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+              </div>
+              <button type="submit" class="btn btn-primary subscribe-btn text-uppercase">Subscribe</button>
+          </div>
           </form>
         </div>
       </div>
