@@ -60,6 +60,7 @@ section h2 {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Navigation Bar*/
@@ -95,12 +96,49 @@ section h2 {
 .hero-btn {
   background: transparent;
   border: 2px solid #fdcc52;
+  border-radius: 15px;
+  padding: 0.5em 3em;
 }
 .hero-btn:hover, .hero-btn:focus {
   background-color: #fdcc52;
   color: #000;
+
 }
 #phone {
   width: 443px;
   height: 894px;
 }
+
+/* Download Section */
+#download {
+  background: #FDC949;
+  margin-top: 0;
+}
+.downloadContent {
+  text-align: center;
+}
+.appDownload:hover {
+  transform: scale(1.1);
+  z-index: 100;
+}
+
+/* Testimonials Section */
+.text-align-center {
+  text-align: center;
+}
+.testimonials .card {
+  border: none;
+  
+}
+.card-img-top {
+  border-radius: 100%;
+  width: 50%;
+  margin: 0 auto;
+}
+.name {
+  margin-top: 3px;
+}
+.card-body {
+  padding-top: 10px;
+}
+
