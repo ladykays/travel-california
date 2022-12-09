@@ -92,3 +92,15 @@ section h2 {
   align-self: center;
   justify-self: center;
 }
+.hero-btn {
+  background: transparent;
+  border: 2px solid #fdcc52;
+}
+.hero-btn:hover, .hero-btn:focus {
+  background-color: #fdcc52;
+  color: #000;
+}
+#phone {
+  width: 443px;
+  height: 894px;
+}
